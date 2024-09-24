@@ -10,5 +10,15 @@ public class Lista {
         dados = new int[this.capacidade];
     }
 
+    public boolean vazia() {
+        return tamanho == 0;
+    }
+
+    public boolean cheia() {
+        return tamanho == capacidade;
+    }
+
+
+
     
 }
