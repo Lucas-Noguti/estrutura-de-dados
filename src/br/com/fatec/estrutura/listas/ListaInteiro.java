@@ -1,3 +1,5 @@
+package br.com.fatec.estrutura.listas;
+
 public class ListaInteiro {
     int[] numeros;
     int tamanho;
