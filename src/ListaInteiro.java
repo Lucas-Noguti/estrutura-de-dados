@@ -1,13 +1,13 @@
-public class Lista {
-    int[] dados;
+public class ListaInteiro {
+    int[] numeros;
     int tamanho;
     int capacidade;
 
     //Construtor
-    Lista(int capacidade) {
+    ListaInteiro(int capacidade) {
         this.capacidade = capacidade;
         tamanho = 0;
-        dados = new int[this.capacidade];
+        numeros = new int[this.capacidade];
     }
 
     public boolean vazia() {
@@ -18,11 +18,11 @@ public class Lista {
         return tamanho == capacidade;
     }
 
-    public void adicionar(int dados) {
+    public void adicionar(int numeros) {
         if (cheia()) {
             System.out.println("Lista cheia!");
         } else {
-            this.dados[tamanho] = dados;
+            this.numeros[tamanho] = numeros;
             tamanho++;
         }
     }
@@ -33,7 +33,7 @@ public class Lista {
             System.out.println("Lista vazia!");
         } else {
             for (int i = 0; i < tamanho; i++) {
-                if (this.dados[i] == dados) {
+                if (this.numeros[i] == dados) {
                     indice = i;
                     break;
                 }
@@ -52,7 +52,7 @@ public class Lista {
             } else {
                 tamanho--;
                 for (int i = indice; i < tamanho; i++) {
-                    this.dados[i] = this.dados[i + 1];
+                    this.numeros[i] = this.numeros[i + 1];
                 }
             }
         }
@@ -60,7 +60,7 @@ public class Lista {
 
     public void imprimir() {
         for (int i = 0; i < tamanho; i++) {
-            System.out.print(dados[i] + " ");
+            System.out.print(numeros[i] + " ");
         }
     }
 }
