@@ -23,7 +23,6 @@ public class ListaAluno {
         if (cheia()) {
             System.out.println("Lista cheia!");
         } else {
-            //this.aluno[tamanho] = new br.com.fatec.estrutura.listas.Aluno();
             this.aluno[tamanho] = aluno;
             tamanho++;
         }
