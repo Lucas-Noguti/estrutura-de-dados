@@ -1,4 +1,4 @@
-package br.com.fatec.estrutura.listas;
+package br.com.fatec.estrutura;
 
 public class Aluno {
     String nome;

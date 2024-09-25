@@ -1,11 +1,11 @@
-package br.com.fatec.estrutura.listas;
+package br.com.fatec.estrutura;
 
 public class ListaAluno {
     Aluno[] aluno;
     int tamanho;
     int capacidade;
 
-    ListaAluno(int capacidade) {
+    public ListaAluno(int capacidade) {
         this.capacidade = capacidade;
         tamanho = 0;
         aluno = new Aluno[this.capacidade];

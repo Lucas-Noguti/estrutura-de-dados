@@ -1,11 +1,11 @@
-package br.com.fatec.estrutura.listas;
+package br.com.fatec.estrutura;
 
 public class ListaString {
     String[] dados;
     int capacidade;
     int tamanho;
 
-    ListaString(int capacidade) {
+    public ListaString(int capacidade) {
         this.capacidade = capacidade;
         tamanho = 0;
         dados = new String[this.capacidade];

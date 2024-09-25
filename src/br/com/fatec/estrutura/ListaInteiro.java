@@ -1,4 +1,4 @@
-package br.com.fatec.estrutura.listas;
+package br.com.fatec.estrutura;
 
 public class ListaInteiro {
     int[] numeros;
@@ -6,7 +6,7 @@ public class ListaInteiro {
     int capacidade;
 
     //Construtor
-    ListaInteiro(int capacidade) {
+    public ListaInteiro(int capacidade) {
         this.capacidade = capacidade;
         tamanho = 0;
         numeros = new int[this.capacidade];
