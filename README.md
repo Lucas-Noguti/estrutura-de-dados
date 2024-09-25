@@ -1,5 +1,5 @@
 # Estrutura de dados
-*** 
+
 ## Instruções
 Baixe o projeto e abra na IDE IntelliJ.
 
@@ -12,4 +12,3 @@ Caso não tenha o intelliJ baixado, acesse os códigos por uma IDE web nos segui
 [Fila](https://onlinegdb.com/SwFFWlYX7) 
 
 *clique em "fork this"* para mexer no código.
-***
