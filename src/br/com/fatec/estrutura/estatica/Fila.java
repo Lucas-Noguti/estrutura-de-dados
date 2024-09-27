@@ -1,4 +1,4 @@
-package br.com.fatec.estrutura;
+package br.com.fatec.estrutura.estatica;
 
 public class Fila {
     String[] itens;

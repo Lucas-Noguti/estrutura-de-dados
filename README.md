@@ -3,7 +3,7 @@
 ## Instruções
 Baixe o projeto e abra na IDE IntelliJ.
 
-Caso não tenha o intelliJ baixado, acesse os códigos por uma IDE web nos seguintes links:
+Caso não tenha o intelliJ baixado, é possível acessar os códigos por uma IDE web (onlineGDB) clicando nos seguintes links:
 
 [Lista](https://onlinegdb.com/XO8CzBGFY)
 
